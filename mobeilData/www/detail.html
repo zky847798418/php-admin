@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name=”apple-mobile-web-app-status-bar-style” content=”black” />
+    <title></title>
+    <link rel="stylesheet" href="css/detail.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var html = document.documentElement;
+            var windowWidth = html.clientWidth;
+            html.style.fontSize = windowWidth / 7.5 + 'px';
+            // 等价于html.style.fontSize = windowWidth / 750 * 100 + 'px';
+        }, false);
+    </script>
+</head>
+<body>
+<section>
+    <div class="detail">
+        <div class="common">
+            <div class="commom-tent">
+                <img src="image/detail1.jpg" >
+            </div>
+            <div class="commom-tent">
+                <img src="image/detail2.jpg" >
+            </div>
+            <div class="commom-tent">
+                <img src="image/detail3.jpg" >
+            </div>
+            <div class="commom-tent">
+                <img src="image/detail4.jpg" >
+            </div>
+        </div>
+    </div>
+    <div id="internet">
+        <div class="internet-top">
+            <form autocomplete="off">
+                <ul class="internet-top-input">
+                    <li>
+                        <label>
+                            <span>姓名:</span>
+                            <input class="internetInput" type="text" id="fname">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <span>性别:</span>
+                            <input class="internetInput" type="text" id="fgender">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <span>电话:</span>
+                            <input class="internetInput" type="text" id="fnumber">
+                        </label>
+                    </li>
+                    <li class="internetAreaLi">
+                        <label>
+                            <span class="internetSpan">详细地址:</span>
+                            <textarea class="internetArea" maxlength="100" id="ftext"></textarea>
+                        </label>
+                    </li>
+                    <li class="internetMan">
+                        <label>
+                            <span >男士尺寸备注:</span>
+                            <input class="internetInput" type="text" id="fman">
+                        </label>
+                    </li>
+                    <li class="internetBtnLi">
+                        <label>
+                            <input value="提交" id="btn" class="internetBtn" type="button" onclick="loadXMLDoc()">
+                        </label>
+                        <div id="internetBtnOff"></div>
+                    </li>
+                </ul>
+            </form>
+            <div class="internet-text">
+                <p>备注：新品推广，活动力度大，到付邮费29元需亲们自己承担哦~</p>
+                <p>量子产品  为您的健康保驾护航！</p>
+            </div>
+        </div>
+        <div class="internet-bottom">
+            <span>无需宣传</span>
+            <span>直接领取</span>
+            <span>免费赠送</span>
+        </div>
+    </div>
+    <div id="popup_body">
+        <div class="popup">
+            <div class="popup_top"></div>
+            <div class="popup_center">
+                <span id="totip"></span>
+            </div>
+            <div class="popup_bottom">
+                <a onclick="closePopup()">确定</a>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="js/detail.js"></script>
+</html>

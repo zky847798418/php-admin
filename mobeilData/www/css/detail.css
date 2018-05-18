@@ -1,0 +1,154 @@
+body{
+    font-family: "Helvetica Neue","Hiragino Sans GB","SimHei","\9ED1\4F53",Arial,sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+img{
+    max-width: 100%;
+}
+section{
+    position: relative;
+}
+.common{
+    font-size: 0;
+}
+.commom-tent img{
+    display: block;
+    line-height: 0;
+}
+.internet-top{
+    background: #ea5550;
+    box-sizing: border-box;
+    padding-top: 0.24rem;
+}
+.internet-top-input li{
+    list-style: none;
+    padding-left: 0.48rem;
+    font-size: 0.36rem;
+    margin-bottom: 0.85rem;
+}
+.internet-top-input li span{
+    letter-spacing: 0.02rem;
+}
+.internet-top-input li .internetInput{
+    outline: none;
+    border: 0;
+    height: 0.36rem;
+    vertical-align: text-top;
+    font-family: inherit;
+    color: #fff;
+    font-size: 0.32rem;
+    background: #ea5550;
+}
+.internet-top-input li .internetArea{
+    outline: none;
+    border: 0;
+    height: 1.2rem;
+    vertical-align: text-top;
+    font-family: inherit;
+    color: #fff;
+    font-size: 0.32rem;
+    background: #ea5550;
+    resize: none;
+}
+.internet-top-input li.internetAreaLi{
+    margin-bottom: 0;
+}
+.internet-top-input li.internetBtnLi{
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    position: relative;
+}
+.internet-top-input li.internetMan{
+    margin-bottom: 0.45rem;
+}
+#internetBtnOff{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255,255,255,0);
+    display: none;
+}
+.internetBtn{
+    width: 1.6rem;
+    text-align: center;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    background: #61b0de;
+    outline: none;
+    border: 0;
+    color: #fff;
+    font-size: 0.18rem;
+    cursor: pointer;
+    border-radius: 0.04rem;
+    letter-spacing: 0.04rem;
+}
+.internet-text p{
+    line-height: 0.48rem;
+    font-size: 0.22rem;
+    text-align: center;
+}
+.internet-bottom{
+    background: #fff;
+    height: 0.5rem;
+    text-align: center;
+}
+.internet-bottom span{
+    color: #92403a;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    display: inline-block;
+    margin: 0 0.1rem;
+}
+#popup_body{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+    display: none;
+}
+.popup{
+    width: 3.5rem;
+    height: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -1rem;
+    margin-left: -1.5rem;
+    background: #fff;
+    border-radius: 0.08rem;
+}
+.popup_top{
+    height: 0.4rem;
+    background: #ea5550;
+    border-radius: 0.08rem 0.08rem 0 0;
+}
+.popup_center{
+    padding: 0.4rem 0.1rem 0 0.4rem;
+    color: #222;
+    font-size: 0.16rem;
+}
+.popup_bottom{
+    text-align: center;
+    padding-top: 0.2rem;
+}
+.popup_bottom a{
+    display: inline-block;
+    padding: 0.05rem 0.15rem;
+    text-align: center;
+    background: #ea5550;
+    color: #fff;
+    font-size: 0.16rem;
+    cursor: pointer;
+    border-radius: 0.04rem;
+    letter-spacing: 0.04rem;
+}
